@@ -1,8 +1,8 @@
 # Ilyas Latypov, MADE 2022, MLOps
-# HW1 "production ready" проект
+### HW1 "production ready" проект
 
 
-## Project
+### Project
 
     ├── configs                       - Config files.
     │
