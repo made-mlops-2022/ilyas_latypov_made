@@ -4,32 +4,32 @@
 
 ### Project
 
-    ├── configs                       - Config files.
+    ├── configs                      - Config files.
     │
     ├── data_for_modeling
-    │   ├── data                       - Original dataset
+    │   ├── data                     - Original dataset
     │   └── features                 - Dataset for modeling (Features + Target)                 
     │
     ├── data_for_prediction
-    │   ├── data                       - Dataset for predictions
-    │   └── prediction              - Predictions of models
+    │   ├── data                     - Dataset for predictions
+    │   └── prediction               - Predictions of models
     │
-    ├── logs                            - Logs
+    ├── logs                         - Logs
     │
     ├── models            
-    │   ├── configs.py             - Code for config loading   
-    │   ├── features.py            - Code for data preparing and features generation       
-    │   ├── modeling.py          - Code for models(pkl) generation
-    │   ├── prediction.py         - Code for target prediction
+    │   ├── configs.py               - Code for config loading   
+    │   ├── features.py              - Code for data preparing and features generation       
+    │   ├── modeling.py              - Code for models(pkl) generation
+    │   ├── prediction.py            - Code for target prediction
     │
-    ├── models_pkl                - Trained models(pkl)
+    ├── models_pkl                   - Trained models(pkl)
     │
-    ├── notebooks                  - Jupyter notebook with EDA
+    ├── notebooks                    - Jupyter notebook with EDA
     │
-    ├── reports                       - Code for EDA report and report-file
+    ├── reports                      - Code for EDA report and report-file
     │
-    ├── tests                           - PyTest code
+    ├── tests                        - PyTest code
     │
-    ├── README.md              - Description
+    ├── README.md                    - Description
     │
-    ├── requirements.txt        - Requirements
+    ├── requirements.txt             - Requirements
