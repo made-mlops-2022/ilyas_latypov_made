@@ -1,2 +1,2 @@
-# ilyas_latypov_made
-HW MLOps
+# Ilyas Latypov Made
+HW1 MLOps
