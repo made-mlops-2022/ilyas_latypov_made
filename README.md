@@ -35,71 +35,71 @@ Cделан скрипт отчета EDA по исходным данным
 
 ### Project
 
-    ├── configs                      - Config files
-    │   ├── model_kn                   - Config files for KNeighborsClassifier model
-    │   │   ├── features.yml            - Config file for features generation
-    │   │   ├── modeling.yml          - Config file for modeling
-    │   │   └── predict.yml              - Config file for prediction
-    │   └── model_lr                - Config files for LogisticRegression model
-    │        ├── features.yml            - Config file for features generation
-    │        ├── modeling.yml          - Config file for modeling
-    │        └── predict.yml              - Config file for prediction
+    ├── configs                            - Config files
+    │   ├── model_kn                          - Config files for KNeighborsClassifier model
+    │   │   ├── features.yml                     - Config file for features generation
+    │   │   ├── modeling.yml                     - Config file for modeling
+    │   │   └── predict.yml                      - Config file for prediction
+    │   └── model_lr                          - Config files for LogisticRegression model
+    │        ├── features.yml                    - Config file for features generation
+    │        ├── modeling.yml                    - Config file for modeling
+    │        └── predict.yml                     - Config file for prediction
     │
-    ├── data_for_modeling
-    │   ├── data                       - Original dataset
+    ├── data_for_modeling                  - Data for modeling
+    │   ├── data                              - Original dataset
     │   │   ├── heart_cleveland_upload.csv
     │   │   └── data_description.txt
-    │   └── features                 - Dataset for modeling (Features + Target)                 
-    │        ├── model_kn               - Features for KNeighborsClassifier model
-    │        │   ├── cat_features.csv     - категориальные признаки
-    │        │   ├── num_features.csv   - числовые признаки
-    │        │   └── target.csv                - целевой признак
-    │        └── model_lr                - Features for LogisticRegression model
-    │             ├── cat_features.csv     - категориальные признаки
-    │             ├── num_features.csv   - числовыепризнаки
-    │             └── target.csv                - целевой признак
+    │   └── features                          - Dataset for modeling (Features + Target)                 
+    │        ├── model_kn                        - Features for KNeighborsClassifier model
+    │        │   ├── cat_features.csv               - категориальные признаки
+    │        │   ├── num_features.csv               - числовые признаки
+    │        │   └── target.csv                     - целевой признак
+    │        └── model_lr                        - Features for LogisticRegression model
+    │             ├── cat_features.csv              - категориальные признаки
+    │             ├── num_features.csv              - числовыепризнаки
+    │             └── target.csv                    - целевой признак
     │
-    ├── data_for_prediction
-    │   ├── data                         - Dataset for predictions
+    ├── data_for_prediction                - Data for prediction
+    │   ├── data                              - Datasets for predictions
     │   │   └── data_sample.csv
-    │   └── prediction                 - Predictions of models
-    │        ├── prediction_kn.csv      - Predictions for KNeighborsClassifier model
-    │        └── prediction_lr.csv       - Predictions for LogisticRegression model
+    │   └── prediction                        - Predictions of models
+    │        ├── prediction_kn.csv               - Predictions for KNeighborsClassifier model
+    │        └── prediction_lr.csv               - Predictions for LogisticRegression model
     │
-    ├── logs                                     - Logs
-    │        ├── logging_model_kn.log      - Logging for KNeighborsClassifier model
-    │        └── logging_model_lr.log       - Logging for LogisticRegression model
+    ├── logs                              - Logs
+    │   ├── logging_model_kn.log             - Logging for KNeighborsClassifier model
+    │   └── logging_model_lr.log             - Logging for LogisticRegression model
     │
-    ├── models            
-    │   ├── configs.py               - Code for config loading   
-    │   ├── features.py              - Code for data preparing and features generation       
-    │   ├── logger.py                 - Code for logging preparation       
-    │   ├── modeling.py             - Code for models(pkl) generation
-    │   └── prediction.py            - Code for target prediction
+    ├── models                            - Source codes
+    │   ├── configs.py                       - Code for config loading   
+    │   ├── features.py                      - Code for data preparing and features generation       
+    │   ├── logger.py                        - Code for logging preparation       
+    │   ├── modeling.py                      - Code for models(pkl) generation
+    │   └── prediction.py                    - Code for target prediction
     │
-    ├── models_pkl                   - Trained models(pkl)
-    │   ├── model_kn               - Trained models(pkl) for KNeighborsClassifier 
-    │   │   ├── ohe.pkl                 - OneHotEncoding saved model (pkl) 
-    │   │   ├── scaler.pkl             - StandardScaler saved model (pkl)
-    │   │   └── kn_clf.pkl              - KNeighborsClassifier saved model (pkl)
-    │   └── model_lr               - Trained models(pkl) for LogisticRegression 
-    │        ├── ohe.pkl                 - OneHotEncoding saved model (pkl) 
-    │        ├── scaler.pkl             - StandardScaler saved model (pkl)
-    │        └── log_reg.pkl           - LogisticRegression saved model (pkl) 
+    ├── models_pkl                        - Trained models(pkl)
+    │   ├── model_kn                         - Trained models(pkl) for KNeighborsClassifier 
+    │   │   ├── ohe.pkl                         - OneHotEncoding saved model (pkl) 
+    │   │   ├── scaler.pkl                      - StandardScaler saved model (pkl)
+    │   │   └── kn_clf.pkl                      - KNeighborsClassifier saved model (pkl)
+    │   └── model_lr                         - Trained models(pkl) for LogisticRegression 
+    │        ├── ohe.pkl                        - OneHotEncoding saved model (pkl) 
+    │        ├── scaler.pkl                     - StandardScaler saved model (pkl)
+    │        └── log_reg.pkl                    - LogisticRegression saved model (pkl) 
     │
-    ├── notebooks                   - Jupyter notebook with EDA 
-    │   ├── EDA.ipynb                 - Jupyter notebook with EDA (.ipynb format)
-    │   └── EDA.html                   - Jupyter notebook with EDA (.html format)
+    ├── notebooks                         - Jupyter notebook with EDA 
+    │   ├── EDA.ipynb                        - Jupyter notebook with EDA (.ipynb format)
+    │   └── EDA.html                         - Jupyter notebook with EDA (.html format)
     │
-    ├── reports                      - Code for EDA report and report file
-    │   ├── report.py                   - Code for EDA report
-    │   └── EDA.html                   - Report file
+    ├── reports                           - Code for EDA report and report file
+    │   ├── report.py                       - Code for EDA report
+    │   └── EDA.html                        - Report file
     │
-    ├── tests                        - PyTest code
+    ├── tests                             - PyTest code
     │
-    ├── README.md                    - Description
+    ├── README.md                         - Description
     │
-    └── requirements.txt             - Requirements
+    └── requirements.txt                  - Requirements
 
 ### Самооценка
 
@@ -110,12 +110,12 @@ Cделан скрипт отчета EDA по исходным данным
 + Выполнение EDA, закоммитьте ноутбук в папку с ноутбуками (1 балл)
 + Написать скрипт, который сгенерит отчет, закоммитьте и скрипт и отчет (1 балл)
 + Написана функция для тренировки модели, вызов оформлен как утилита командной строки, записана в readme инструкцию по запуску (3 балла)
-+ Написана функция predict (вызов оформлен как утилита командной строки), которая примет на вход артефакт/ы от обучения, тестовую выборку (без меток) и запишет предикт по заданному пути, инструкция по вызову записана в readme (3 балла)
++ Написана функция predict (вызов оформлен как утилита командной строки), запишет предикт по заданному пути, инструкция по вызову записана в readme (3 балла)
 + Проект имеет модульную структуру (2 балла)
 + Использованы логгеры (2 балла)
 + Написаны тесты на отдельные модули и на прогон обучения и predict (3 балла) ------
 + Для тестов генерируются синтетические данные, приближенные к реальным (2 балла) --------
-+ Обучение модели конфигурируется с помощью конфигов в json или yaml, закоммитьте как минимум 2 корректные конфигурации, с помощью которых можно обучить модель (разные модели, стратегии split, preprocessing) (3 балла)
++ Обучение модели конфигурируется с помощью конфигов в json или yaml, закоммитьте 2 корректные конфигурации, с помощью которых можно обучить модель (3 балла)
 + Напишите кастомный трансформер и протестируйте его (3 балла) -------
 + Используются датаклассы для сущностей из конфига, а не голые dict (3 балла)
 + В проекте зафиксированы все зависимости (1 балл)
