@@ -1,4 +1,5 @@
 import sys
+sys.path.append(".")
 import pickle
 import pandas as pd
 import numpy as np
@@ -6,15 +7,18 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import roc_auc_score
-from config import read_config_model_params
-from logger import start_logger
+from ml_project.models.config import read_config_model_params
+from ml_project.models.logger import start_logger, create_parser
 
 
-def modeling():
-    if len(sys.argv) != 2:
+def modeling(arg1=None):
+    parser = create_parser(arg1)
+    namespace = parser.parse_args(sys.argv[1:])
+    if namespace.arg1 is None:
         print("Specify the config file as а parameter")
         return
-    model_par = read_config_model_params(sys.argv[1])
+
+    model_par = read_config_model_params(namespace.arg1)
     logger = start_logger(model_par.root_path + model_par.logging_path)
     logger.info("Инициализация логирования и загрузка файла параметров")
 
@@ -59,6 +63,9 @@ def modeling():
             pickle.dump(estimator, file)
     else:
         logger.warning("Некорректное имя модели")
+        return
+
+    return X_train, X_test, y_train, y_test, estimator.predict(X_train), estimator.predict(X_test)
 
 
 if __name__ == '__main__':

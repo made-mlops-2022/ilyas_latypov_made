@@ -60,3 +60,792 @@
 [2022-11-05 00:48:57,774: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
 [2022-11-05 00:48:58,162: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
 [2022-11-05 00:48:58,164: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:02:18,998: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:02:18,998: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:02:19,003: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:02:19,126: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:02:19,130: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:02:19,130: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:02:19,158: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:20:56,515: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:20:56,515: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:20:56,519: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:20:56,521: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:20:56,526: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:20:56,526: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:20:56,536: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:08,546: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:25:08,546: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:25:08,550: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:25:08,553: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:25:08,558: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:25:08,558: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:08,568: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:57,061: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:25:57,061: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:25:57,065: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:25:57,067: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:25:57,072: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:25:57,072: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:57,082: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:57,088: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:25:57,088: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:25:57,091: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:25:57,093: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:25:57,097: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:25:57,097: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:25:57,105: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:32,300: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:29:32,300: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:29:32,304: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:29:32,307: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:29:32,312: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:29:32,312: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:32,322: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:32,325: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:29:32,325: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:29:32,328: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:29:32,329: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:29:32,333: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:29:32,334: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:32,341: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:57,781: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:29:57,781: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:29:57,786: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:29:57,788: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:29:57,793: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:29:57,793: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:57,805: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:57,808: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:29:57,809: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:29:57,811: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:29:57,813: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:29:57,818: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:29:57,818: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:29:57,827: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:37:07,847: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:37:07,847: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:37:07,851: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:37:07,854: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:37:07,859: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:37:07,859: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:37:07,869: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:37:29,675: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:37:29,676: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:37:29,683: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:37:29,684: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:37:29,684: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:37:29,798: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:37:29,799: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:37:29,799: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:39:38,887: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:39:38,887: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:39:38,890: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:39:38,893: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:39:38,898: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:39:38,898: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:39:38,907: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:39:38,912: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:39:38,912: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:39:38,914: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:39:38,916: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:39:38,919: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:39:38,920: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:39:38,927: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:04,871: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:04,871: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:45:04,875: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:45:04,878: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:45:04,882: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:45:04,883: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:04,892: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:04,896: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:04,896: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:45:04,899: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:45:04,900: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:45:04,904: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:45:04,905: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:04,912: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:36,452: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,452: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:45:36,456: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:45:36,458: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:45:36,464: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:45:36,464: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:36,474: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:36,478: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,478: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:45:36,480: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:45:36,482: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:45:36,486: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:45:36,486: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:36,494: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:45:36,498: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,498: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,498: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:45:36,498: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:45:36,503: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:45:36,503: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:45:36,504: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:45:36,504: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:45:36,504: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:45:36,504: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:45:36,510: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:45:36,510: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:45:36,511: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:45:36,511: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:45:36,511: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:45:36,511: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:45:36,517: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,517: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:45:36,518: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:45:36,518: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:45:36,523: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:45:36,545: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:45:36,545: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:45:36,547: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:45:36,547: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:45:36,547: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:45:36,547: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:49:38,047: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,047: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:49:38,051: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:49:38,054: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:49:38,058: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:49:38,059: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:49:38,069: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:49:38,073: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,073: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:49:38,075: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:49:38,077: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:49:38,081: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:49:38,081: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:49:38,089: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:49:38,093: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,093: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,093: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:49:38,093: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:49:38,099: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:49:38,105: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:49:38,105: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:49:38,106: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:49:38,106: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:49:38,106: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:49:38,106: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:49:38,110: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,110: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:49:38,110: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:49:38,110: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:49:38,115: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:49:38,115: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:49:38,116: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:49:38,116: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:49:38,116: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:49:38,116: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:49:38,119: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:49:38,119: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:49:38,121: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:49:38,121: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:49:38,121: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:49:38,121: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:50:12,868: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,868: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:50:12,873: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:50:12,875: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:50:12,880: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:50:12,880: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:50:12,890: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:50:12,894: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,894: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:50:12,896: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:50:12,898: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:50:12,902: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:50:12,903: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:50:12,910: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:50:12,914: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,914: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,914: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:50:12,914: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:50:12,919: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:50:12,919: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:50:12,920: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:50:12,920: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:50:12,920: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:50:12,920: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:50:12,926: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:50:12,926: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:50:12,927: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:50:12,927: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:50:12,927: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:50:12,927: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:50:12,930: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,930: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:50:12,930: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:50:12,930: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:50:12,936: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:50:12,939: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:50:12,939: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:50:12,941: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:50:12,941: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:50:12,942: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:50:12,942: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:04,612: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,612: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:04,612: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:04,627: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:04,627: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:04,627: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:04,643: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:04,643: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:04,659: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:04,659: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,659: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,659: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:04,659: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:04,659: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:04,659: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:04,674: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:04,674: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:04,674: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:04,674: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:04,674: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,674: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:04,674: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:04,690: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:04,690: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:04,690: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:04,690: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:04,690: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:04,706: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,706: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,706: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:04,706: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,438: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,438: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:31,438: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:31,454: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:31,454: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:31,454: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:31,469: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:31,469: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:31,485: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:31,485: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,485: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,485: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:31,485: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:31,485: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:31,485: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:31,501: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:31,501: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:31,501: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:31,501: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:31,501: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,501: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:31,501: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:31,516: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:31,516: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:31,516: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:31,516: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:31,516: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:31,532: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,532: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,532: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,532: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,547: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,547: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,547: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:31,547: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,521: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,521: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:51,521: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:51,536: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:51,536: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:51,536: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:51,552: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 22:57:51,552: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:51,568: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 22:57:51,568: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,568: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,568: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:51,568: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 22:57:51,583: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:51,583: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 22:57:51,583: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:51,583: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 22:57:51,583: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,583: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:51,583: DEBUG] - modeling - Загрузка данных
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 22:57:51,599: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:51,599: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 22:57:51,599: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:51,599: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:51,599: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 22:57:51,614: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,614: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,614: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,614: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,630: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,630: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,630: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка данных
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 22:57:51,630: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,132: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,132: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:22:39,136: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:22:39,139: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:22:39,143: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:22:39,144: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:22:39,155: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:22:39,160: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,160: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:22:39,162: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:22:39,164: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:22:39,168: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:22:39,169: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:22:39,176: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:22:39,180: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,180: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,180: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:22:39,180: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:22:39,186: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:22:39,186: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:22:39,187: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:22:39,187: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:22:39,187: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:22:39,187: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:22:39,193: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:22:39,193: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:22:39,194: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:22:39,194: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:22:39,194: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:22:39,194: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:22:39,198: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,198: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,198: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:22:39,198: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:22:39,203: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:22:39,203: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:22:39,204: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:22:39,204: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:22:39,204: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:22:39,204: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:22:39,207: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:22:39,207: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:22:39,209: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:22:39,209: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:22:39,209: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:22:39,209: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:22:39,221: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,221: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,221: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,221: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,221: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,221: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,223: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,223: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,223: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,226: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,226: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,226: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,227: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,227: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,227: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,232: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,232: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,232: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:22:39,232: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,232: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,232: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:22:39,234: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,234: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,234: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:22:39,236: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,236: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,236: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:22:39,237: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,237: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:22:39,237: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:42:29,257: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:42:29,257: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:42:29,266: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:42:29,266: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:42:29,267: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:42:29,273: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:42:29,274: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:42:29,274: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:42:29,277: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:42:29,277: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:42:29,282: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:42:29,283: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:42:29,283: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:42:29,286: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:42:29,288: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:42:29,288: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:43:03,392: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:03,392: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:03,396: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:03,399: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:03,403: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:03,404: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:03,414: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:03,418: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:03,418: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:03,420: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:03,422: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:03,426: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:03,426: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:03,434: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,375: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,375: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:44,379: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:44,382: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:44,387: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:44,387: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,397: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,401: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,401: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,401: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:43:44,401: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:43:44,407: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:43:44,407: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:43:44,408: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:43:44,408: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:43:44,408: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:43:44,408: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:43:44,413: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:43:44,413: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:43:44,414: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:43:44,414: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:43:44,414: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:43:44,414: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:43:44,419: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,419: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,419: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,419: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,419: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,419: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,421: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,421: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,421: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,423: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,423: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,423: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,425: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:43:44,425: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:43:44,425: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:43:44,429: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,429: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,429: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,430: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:44,430: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:44,430: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:43:44,433: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:44,433: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:44,433: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:43:44,435: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:44,435: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:44,435: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,439: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,450: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,450: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,450: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:43:44,454: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,454: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,454: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,454: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:43:44,454: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:43:44,454: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:43:44,460: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:43:44,461: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:43:44,461: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:43:44,461: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:43:44,464: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:43:44,464: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:43:44,464: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:43:44,466: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:43:44,466: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:43:44,466: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:43:44,466: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:43:44,466: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:43:44,466: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:43:44,480: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,480: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,480: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:43:44,481: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,481: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,481: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:43:44,483: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,483: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,483: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:43:44,485: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,485: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,485: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:43:44,486: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:43:44,486: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:43:44,486: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:47:22,730: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:47:22,730: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:47:22,740: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:47:22,740: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:47:22,741: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:47:22,747: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:47:22,747: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:47:22,747: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:47:22,751: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:47:22,751: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:47:22,756: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:47:22,757: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:47:22,757: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:47:22,761: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:47:22,763: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:47:22,763: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:49:32,560: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:49:32,560: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:49:32,564: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:49:32,567: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:49:32,571: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:49:32,572: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:49:32,582: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:49:32,586: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:49:32,586: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:49:32,588: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:49:32,590: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:49:32,594: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:49:32,594: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:49:32,602: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,142: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,142: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:50:29,146: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:50:29,149: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:50:29,154: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:50:29,155: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,165: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,169: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,169: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,170: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:50:29,170: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:50:29,176: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:50:29,176: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:50:29,177: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:50:29,177: DEBUG] - modeling - Расчет модели LogisticRegression
+[2022-11-06 23:50:29,177: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:50:29,177: DEBUG] - modeling - Настройка модели LogisticRegression
+[2022-11-06 23:50:29,183: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:50:29,183: INFO] - modeling - roc_auc_train: 0.9292
+[2022-11-06 23:50:29,184: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:50:29,184: INFO] - modeling - roc_auc_test: 0.9581
+[2022-11-06 23:50:29,184: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:50:29,184: DEBUG] - modeling - Сохранение модели(pkl) LogisticRegression
+[2022-11-06 23:50:29,188: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,188: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,188: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,188: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,188: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,188: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,191: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,191: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,191: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,193: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,193: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,193: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,194: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:50:29,194: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:50:29,194: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:50:29,199: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,199: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,199: INFO] - features_prepare - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,199: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:50:29,199: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:50:29,199: DEBUG] - features_prepare - Загрузка данных
+[2022-11-06 23:50:29,202: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:50:29,202: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:50:29,202: DEBUG] - features_prepare - Сохранение target
+[2022-11-06 23:50:29,204: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:50:29,204: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:50:29,204: DEBUG] - features_prepare - Расчет и сохранение StandardScaler для числовых признаков
+[2022-11-06 23:50:29,208: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:50:29,208: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:50:29,208: DEBUG] - features_prepare - Сохранение модели(pkl) StandardScaler для числовых признаков
+[2022-11-06 23:50:29,209: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,209: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,209: DEBUG] - features_prepare - Расчет и сохранение OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,217: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,217: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,217: DEBUG] - features_prepare - Сохранение модели(pkl) OneHotEncoder для категориальных признаков
+[2022-11-06 23:50:29,221: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,221: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,221: INFO] - modeling - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,221: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:50:29,221: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:50:29,221: DEBUG] - modeling - Загрузка данных
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Разделение данных на трейн и тест
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Расчет модели KNeighborsClassifier
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:50:29,226: DEBUG] - modeling - Настройка модели KNeighborsClassifier
+[2022-11-06 23:50:29,229: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:50:29,229: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:50:29,229: INFO] - modeling - roc_auc_train: 0.9068
+[2022-11-06 23:50:29,231: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:50:29,231: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:50:29,231: INFO] - modeling - roc_auc_test: 0.9264
+[2022-11-06 23:50:29,232: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:50:29,232: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:50:29,232: DEBUG] - modeling - Сохранение модели(pkl) KNeighborsClassifier
+[2022-11-06 23:50:29,244: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,244: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,244: INFO] - prediction - Инициализация логирования и загрузка файла параметров
+[2022-11-06 23:50:29,244: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,244: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,244: DEBUG] - prediction - Загрузка данных
+[2022-11-06 23:50:29,246: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,246: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,246: DEBUG] - prediction - Загрузка OneHotEncoder и применение для категориальных признаков
+[2022-11-06 23:50:29,249: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,249: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,249: DEBUG] - prediction - Загрузка StandardScaler и применение для числовых признаков
+[2022-11-06 23:50:29,251: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:50:29,251: DEBUG] - prediction - Загрузка и применение модели
+[2022-11-06 23:50:29,251: DEBUG] - prediction - Загрузка и применение модели

@@ -1,16 +1,20 @@
 import sys
+sys.path.append(".")
 import pickle
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from config import read_config_feature_params
-from logger import start_logger
+from ml_project.models.config import read_config_feature_params
+from ml_project.models.logger import start_logger, create_parser
 
 
-def features_prepare():
-    if len(sys.argv) != 2:
+def features_prepare(arg1=None):
+    parser = create_parser(arg1)
+    namespace = parser.parse_args(sys.argv[1:])
+    if namespace.arg1 is None:
         print("Specify the config file as а parameter")
         return
-    feat_par = read_config_feature_params(sys.argv[1])
+
+    feat_par = read_config_feature_params(namespace.arg1)
     logger = start_logger(feat_par.root_path + feat_par.logging_path)
     logger.info("Инициализация логирования и загрузка файла параметров")
 
@@ -48,6 +52,8 @@ def features_prepare():
     ohe_filename = feat_par.root_path + feat_par.data_path_ohe_pkl
     with open(ohe_filename, 'wb') as file:
         pickle.dump(ohe, file)
+
+    return x_num, x_cat, data[[feat_par.target]]
 
 
 if __name__ == '__main__':

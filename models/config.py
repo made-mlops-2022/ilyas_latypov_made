@@ -82,8 +82,3 @@ def read_config_predict_params(config_path: str) -> PredictParams:
     report_config_schema = class_schema(PredictParams)
     predict_params = report_config_schema().load(params_dict)
     return predict_params
-
-# if __name__ == '__main__':
-    # path = r"D:/ID/Course/MYENV/HW1_MLOps/ml_project/configs/model_lr/predict.yml"
-    # predict_par = read_config_predict_params(path)
-    # print(predict_par.num_features)
