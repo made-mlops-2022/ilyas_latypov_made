@@ -1,0 +1,21 @@
+root_path: 'D:\ID\Course\MYENV\HW1_MLOps\ml_project\'
+data_path_for_prediction: 'data_for_prediction\data\data_sample.csv'
+target_prediction_path: 'data_for_prediction\prediction\prediction_kn.csv'
+data_path_ohe_pkl: models_pkl\model_kn\ohe.pkl
+data_path_scaler_pkl: models_pkl\model_kn\scaler.pkl
+data_path_model_pkl: models_pkl\model_kn\kn_clf.pkl
+logging_path: logs\logging_model_kn.log
+cat_features:
+  - sex
+  - cp
+  - fbs
+  - exang
+  - slope
+  - ca
+  - thal
+num_features:
+  - age
+  - trestbps
+  - thalach
+  - oldpeak
+target: condition

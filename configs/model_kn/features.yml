@@ -1,0 +1,23 @@
+root_path: 'D:\ID\Course\MYENV\HW1_MLOps\ml_project\'
+data_path_for_modeling: 'data_for_modeling\data\heart_cleveland_upload.csv'
+data_path_cat_features: data_for_modeling\features\model_kn\cat_features.csv
+data_path_num_features: data_for_modeling\features\model_kn\num_features.csv
+data_path_target_path: data_for_modeling\features\model_kn\target.csv
+data_path_ohe_pkl: models_pkl\model_kn\ohe.pkl
+data_path_scaler_pkl: models_pkl\model_kn\scaler.pkl
+logging_path: logs\logging_model_kn.log
+cat_features:
+  - sex
+  - cp
+  - fbs
+  - exang
+  - slope
+  - ca
+  - thal
+num_features:
+  - age
+  - trestbps
+  - thalach
+  - oldpeak
+target: condition
+
