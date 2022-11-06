@@ -61,7 +61,8 @@ Cделан скрипт отчета EDA по исходным данным
     │
     ├── data_for_prediction                - Data for prediction
     │   ├── data                              - Datasets for predictions
-    │   │   └── data_sample.csv
+    │   │   ├── data_sample.csv
+    │   │   └── data_synt_sample.csv
     │   └── prediction                        - Predictions of models
     │        ├── prediction_kn.csv               - Predictions for KNeighborsClassifier model
     │        └── prediction_lr.csv               - Predictions for LogisticRegression model
@@ -76,7 +77,7 @@ Cделан скрипт отчета EDA по исходным данным
     │   ├── logger.py                        - Code for logging preparation       
     │   ├── modeling.py                      - Code for models(pkl) generation
     │   ├── prediction.py                    - Code for target prediction
-    │   └── prepare_sample                   - Code for data generation
+    │   └── prepare_sample                   - Code for synthetic data generation
     │
     ├── models_pkl                        - Trained models(pkl)
     │   ├── model_kn                         - Trained models(pkl) for KNeighborsClassifier 
@@ -96,10 +97,11 @@ Cделан скрипт отчета EDA по исходным данным
     │   ├── report.py                        - Code for EDA report
     │   └── report.html                      - Report file
     │
-    ├── tests                             - PyTest code (for features, modeling, predictions, pipeline
+    ├── tests                             - PyTest code (for features, modeling, predictions, pipeline, synthetic data)
     │   ├── test_features_modeling.py
     │   ├── test_modeling.py
-    │   └── test_pipeline.py
+    │   ├── test_pipeline.py
+    │   └── test_synt_data.py
     │
     ├── README.md                         - Description
     │
@@ -115,12 +117,12 @@ Cделан скрипт отчета EDA по исходным данным
 +   4. Написана функция predict (вызов оформлен как утилита командной строки), запишет предикт по заданному пути, инструкция по вызову записана в readme (3 балла) - сделано
 +   5. Проект имеет модульную структуру (2 балла) - сделано
 +   6. Использованы логгеры (2 балла) - сделано
-+    7. Написаны тесты на отдельные модули и на прогон обучения и predict (3 балла) - сделано
--    8. Для тестов генерируются синтетические данные, приближенные к реальным (2 балла)  - не сделано
++   7. Написаны тесты на отдельные модули и на прогон обучения и predict (3 балла) - сделано
++   8. Для тестов генерируются синтетические данные, приближенные к реальным (2 балла)  - сделано
 +   9. Обучение модели конфигурируется с помощью конфигов в json или yaml, закоммитьте 2 корректные конфигурации, с помощью которых можно обучить модель (3 балла) - сделано
 + 10. Используются датаклассы для сущностей из конфига, а не голые dict (2 балла) - сделано
 -  11. Напишите кастомный трансформер и протестируйте его (3 балла) - не сделано
 + 12. В проекте зафиксированы все зависимости (1 балл) - сделано
 -  13. Настроен CI для прогона тестов, линтера на основе github actions (3 балла) - не сделано
 
-+ Итого: 23 балла
++ Итого: 25 баллов
