@@ -76,7 +76,7 @@ Cделан скрипт отчета EDA по исходным данным
     │   ├── logger.py                        - Code for logging preparation       
     │   ├── modeling.py                      - Code for models(pkl) generation
     │   ├── prediction.py                    - Code for target prediction
-    │   └── prepare_sample                - Data generation
+    │   └── prepare_sample                   - Code for data generation
     │
     ├── models_pkl                        - Trained models(pkl)
     │   ├── model_kn                         - Trained models(pkl) for KNeighborsClassifier 
