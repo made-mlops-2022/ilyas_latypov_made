@@ -1,0 +1,12 @@
+root_path: 'D:\ID\Course\MYENV\HW1_MLOps\ml_project\'
+data_path_cat_features: data_for_modeling\features\model_lr\cat_features.csv
+data_path_num_features: data_for_modeling\features\model_lr\num_features.csv
+data_path_target_path: data_for_modeling\features\model_lr\target.csv
+data_path_model_pkl: models_pkl\model_lr\log_reg.pkl
+logging_path: logs\logging_model_lr.log
+target: condition
+test_size: 0.2
+model_name: LogisticRegression
+model_param_name: C
+model_param_value: 0.2
+seed: 0
