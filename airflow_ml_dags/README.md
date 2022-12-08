@@ -2,20 +2,19 @@
 ### HW3 AirFlow
 
 ### Описание команд
- - "docker-compose up --build"                                                              - Запуск AirFlow
- -  "pytest -v tests/"                                                                                - Запуск тестов
+ - "docker-compose up --build"                                      - Запуск AirFlow
+ -  "pytest -v tests/"                                              - Запуск тестов
 
 ### Project
-    ├── dags                                                                                             - python dag files
-    ├── images                                                                                         - image files
-    ├── screens                                                                                        - Airflow screenshots
-    ├── test                                                                                               - python file for pytest
-    ├── docker-compose.yml                                                                    - docker file
-    └── README.md                                                                                 - description
+    ├── dags                                                        - python dag files
+    ├── images                                                      - image files
+    ├── screens                                                     - airflow screenshots
+    ├── test                                                        - python file for pytest
+    ├── docker-compose.yml                                          - docker file
+    └── README.md                                                   - description
 
 
 ### Самооценка
-Ветка для проекта homework1, код в папке ml_project:
 +   0. Поднимите airflow локально, используя `docker compose` (можно использовать из примера https://github.com/made-ml-in-prod-2021/airflow-examples/) (0 баллов) - сделано
 +   1. Реализуйте dag, который генерирует данные для обучения модели. Вам важно проэмулировать ситуации постоянно поступающих данных  (5 баллов) - сделано
 +   2. Реализуйте dag, который обучает модель еженедельно, используя данные за текущий день. В вашем пайплайне должно быть как минимум 4 стадии (10 балл) - сделано
