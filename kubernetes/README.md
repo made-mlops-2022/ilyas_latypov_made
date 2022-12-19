@@ -14,24 +14,24 @@
 
 
 ### Описание команд
-  - "kubectl apply -f online-inference-pod.yaml"                                      - Запуск 
-  -  "kubectl get pods"          			                                - Проверка статуса pod
-  - "kubectl port-forward pods/online-inference 8000:8000"                   - Настройка портов
+  - "kubectl apply -f online-inference-pod.yaml"                  - Запуск 
+  -  "kubectl get pods"          			                            - Проверка статуса pod
+  - "kubectl port-forward pods/online-inference 8000:8000"        - Настройка портов
 
 
 ### Project
-    ├── hello-world-docker                                                                            - Docker файлы для "заглушки" online-inference
+    ├── hello-world-docker                                        - Docker файлы для "заглушки" online-inference
     │   ├── Dockerfile
     │   └── hello.sh
-    ├── Kubernetes_for_WSL2_WIN10.png                    		   - Скриншот установки
-    ├── Running Kubernetes.png                                    		   - Скриншот запуска
-    ├── online-inference-pod.yaml                           		                   - простой манифест
-    ├── online-inference-pod-resources.yaml                 		   - манифест с Requests / Limits
-    ├── online-inference-pod-probes.yaml                  		   - манифест запуска с задержкой
-    ├── online-inference-replicaset.yaml                         		   - манифест с репликами
-    ├── online-inference-deployment-blue-green.yaml                               - манифест (старые и новые поды есть одновременно)
-    ├── online-inference-deployment-rolling-update.yaml                          - манифест (с поднятием новых версий, гасятся старые)
-    └── README.md                                                                                   - Description
+    ├── Kubernetes_for_WSL2_WIN10.png                    		      - Скриншот установки
+    ├── Running Kubernetes.png                                    - Скриншот запуска
+    ├── online-inference-pod.yaml                           		  - простой манифест
+    ├── online-inference-pod-resources.yaml                 		  - манифест с Requests / Limits
+    ├── online-inference-pod-probes.yaml                  		    - манифест запуска с задержкой
+    ├── online-inference-replicaset.yaml                         	- манифест с репликами
+    ├── online-inference-deployment-blue-green.yaml               - манифест (старые и новые поды есть одновременно)
+    ├── online-inference-deployment-rolling-update.yaml           - манифест (с поднятием новых версий, гасятся старые)
+    └── README.md                                                 - Description
 
 
 ### Самооценка
