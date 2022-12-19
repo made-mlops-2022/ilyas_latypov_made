@@ -6,6 +6,7 @@
 Домашнее задание 2 по online inference я не выполнял
 Для выполнения домашнего задания 4 сделал  "заглушку" online-inference:
 "docker build -t idlatypov/online-inference:v1 ."
+"docker build -t idlatypov/online-inference:v2 ."
 
 Докер заглушка расположена в папке "hello-world-docker"
 В нем выполняется одна команда "echo Hello World!" 
@@ -23,11 +24,11 @@
     ├── hello-world-docker                                        - Docker файлы для "заглушки" online-inference
     │   ├── Dockerfile
     │   └── hello.sh
-    ├── Kubernetes_for_WSL2_WIN10.png                    		      - Скриншот установки
+    ├── Kubernetes_for_WSL2_WIN10.png                    	      - Скриншот установки
     ├── Running Kubernetes.png                                    - Скриншот запуска
-    ├── online-inference-pod.yaml                           		  - простой манифест
-    ├── online-inference-pod-resources.yaml                 		  - манифест с Requests / Limits
-    ├── online-inference-pod-probes.yaml                  		    - манифест запуска с задержкой
+    ├── online-inference-pod.yaml                           	  - простой манифест
+    ├── online-inference-pod-resources.yaml                 	  - манифест с Requests / Limits
+    ├── online-inference-pod-probes.yaml                  	    - манифест запуска с задержкой
     ├── online-inference-replicaset.yaml                         	- манифест с репликами
     ├── online-inference-deployment-blue-green.yaml               - манифест (старые и новые поды есть одновременно)
     ├── online-inference-deployment-rolling-update.yaml           - манифест (с поднятием новых версий, гасятся старые)

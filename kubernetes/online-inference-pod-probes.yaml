@@ -6,7 +6,7 @@ metadata:
     app: online-inference
 spec:
   containers:
-    - image: idlatypov/online-inference:v1
+    - image: idlatypov/online-inference:v2
       name: online-inference
       imagePullPolicy: Always
       ports:
