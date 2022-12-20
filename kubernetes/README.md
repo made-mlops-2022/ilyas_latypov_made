@@ -38,18 +38,16 @@ a) Есть момент времени, когда на кластере сущ
 
 
 ### Project
-    ├── hello-world-docker                                        - Docker файлы для "заглушки" online-inference
-    │   ├── Dockerfile
-    │   └── hello.sh
     ├── Kubernetes_for_WSL2_WIN10.png                    	      - Скриншот установки
     ├── Running Kubernetes.png                                    - Скриншот запуска
+    ├── Заглушка.png                                                    - Скриншот для "заглушки" online-inference
     ├── online-inference-pod.yaml                           	  - простой манифест
     ├── online-inference-pod-resources.yaml                 	  - манифест с Requests / Limits
     ├── online-inference-pod-probes.yaml                  	    - манифест запуска с задержкой
     ├── online-inference-replicaset.yaml                         	- манифест с репликами
     ├── online-inference-deployment-blue-green.yaml               - манифест (старые и новые поды есть одновременно)
     ├── online-inference-deployment-rolling-update.yaml           - манифест (с поднятием новых версий, закрываются старые)
-    └── README.md                                                 - Description
+    └── README.md                                                 - Описание
 
 
 ### Самооценка
