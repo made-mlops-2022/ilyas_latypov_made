@@ -6,11 +6,11 @@ metadata:
     app: online-inference
 spec:
   containers:
-    - image: idlatypov/online-inference:v2
+    - image: docker-tutorial:v2
       name: online-inference
       imagePullPolicy: Always
       ports:
-        - containerPort: 8000
+        - containerPort: 80
       resources:
         requests:
           memory: "128Mi"
@@ -21,12 +21,12 @@ spec:
       readinessProbe:
         httpGet:
           path: /ready
-          port: 8000
+          port: 80
         initialDelaySeconds: 10
         periodSeconds: 5
       livenessProbe:
         httpGet:
           path: /live
-          port: 8000
+          port: 80
         initialDelaySeconds: 30
         periodSeconds: 5

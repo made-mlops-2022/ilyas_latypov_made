@@ -3,15 +3,11 @@
 
 
 ### Особенности решения
-Домашнее задание 2 по online inference я не выполнял
-Для выполнения домашнего задания 4 сделал  "заглушку" online-inference:
-"docker build -t idlatypov/online-inference:v1 ."
-"docker build -t idlatypov/online-inference:v2 ."
-
-Докер заглушка расположена в папке "hello-world-docker"
-В нем выполняется одна команда "echo Hello World!" 
-
 Для установки Kubernetes воспользовался встроенным функционалом Docker Desktop (Win10 WSL2). Скрины приложены
+Домашнее задание 2 по online inference я не выполнял
+Поэтому для выполнения домашнего задания 4 за место online-inference использовал  "заглушку"  docker-tutorial,
+который поставляется вместе с Docker Desktop (скрин приложен) и доступен через http://localhost:80
+
 
 ### Ответы на вопросы домашнего задания
 3. Пропишите Requests / Limits и напишите, зачем это нужно:

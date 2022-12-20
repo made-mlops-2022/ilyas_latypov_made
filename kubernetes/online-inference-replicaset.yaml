@@ -16,10 +16,10 @@ spec:
         app: online-inference
     spec:
       containers:
-        - image: idlatypov/online-inference:v1
+        - image: docker-tutorial
           name: online-inference
           ports:
-            - containerPort: 8000
+            - containerPort: 80
           resources:
             requests:
               memory: "128Mi"
